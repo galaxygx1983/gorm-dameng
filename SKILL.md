@@ -1,6 +1,6 @@
 ---
 name: gorm-dameng
-description: 达梦数据库(DM8) GORM 驱动开发指南。用于 Go 项目集成达梦数据库。TRIGGER 当用户需要：(1) 在 Go 项目中使用达梦数据库 (2) 配置 GORM 连接达梦 (3) 处理达梦特有的 SQL 语法问题 (4) 解决达梦数据库迁移问题 (5) 实现达梦的 Upsert/Insert On Conflict 功能 (6) 设置 VARCHAR 字符长度而非字节长度
+description: 达梦数据库(DM8) GORM v2驱动开发指南(gorm-dameng)。当用户在Go项目中需要集成达梦数据库、配置GORM连接DM8、处理达梦特有的SQL语法问题、数据库迁移(AutoMigrate)、实现Upsert(MERGE INTO)、设置VARCHAR字符长度模式、自增主键(Identity)插入、布尔类型映射、列注释、动态服务名集群连接等相关问题时使用。支持解决达梦与MySQL/PostgreSQL差异、字符长度vs字节长度、数据库迁移兼容性等常见问题。
 ---
 
 # 达梦数据库 GORM 驱动
